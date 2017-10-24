@@ -255,6 +255,10 @@ nav button:hover {
     padding-bottom: 2%;
 }
 
+.game .row:nth-child(2) {
+  margin-top: 4px;
+}
+
 #game-5 {
   margin-bottom: 0;
   border-bottom: none;
