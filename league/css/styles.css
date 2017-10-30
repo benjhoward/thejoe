@@ -1,0 +1,118 @@
+.league-top {
+  margin-bottom: 28px;
+}
+
+.col-league {
+  width: 48%;
+  margin: 0 1%;
+}
+.game {
+  border-bottom: none;
+}
+
+.game::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+
+.league-title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.league-title-button button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #e6e6e6;
+  border: 0;
+  float: left;
+  font-size: 15px;
+}
+
+.league-title-button button:hover {
+  background-color: #d4d4d4;
+}
+
+.players-button {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.league-title-subject p {
+  font-size: 18px;
+  font-family: 'roboto slab', sans-serif;
+  font-weight: 800;
+}
+
+.league-title-bordered::after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+
+.no-button {
+  border-bottom: 4px solid #e6e6e6;
+  margin-bottom: 20px;
+  border-right: 4px solid #e6e6e6;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-bottom: 15px;
+  text-align: left;
+  display: flex;
+}
+
+.matchup-roster th, td {
+  padding: 10px 0;
+}
+
+.matchup-roster td:nth-child(2) {
+  color: #2085FF;
+}
+.matchup-roster td:last-child {
+  font-weight: initial;
+}
+
+.matchup-roster td:nth-child(3) {
+  font-weight: 800;
+}
+
+.matchup-roster th:nth-child(4), th:nth-child(5) {
+  width: 80px;
+}
+
+.league-standings {
+  margin-bottom: 48px;
+}
+
+.message-board {
+  width: 98%;
+  float: none;
+  margin: 0 auto;
+}
+
+.message p:first-child {
+  font-weight: 800;
+}
+
+.message-board-text::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #e6e6e6;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
