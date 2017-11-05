@@ -163,3 +163,13 @@ nav h2 {
 .matchup-roster td:nth-child(2) {
   color: #2085FF;
 }
+
+.home-header button {
+  background-color: white;
+  padding: 10px 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+  border: none;
+}
